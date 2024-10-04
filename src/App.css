@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Lato&family=Lobster&family=Poppins&display=swap");
+:root {
+  --primary-color: #0d233a;
+  --secondary-color: #ffc800;
+  --black-color: #000;
+  --white-color: #fff;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding-top: 5rem;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background: grey;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(13, 35, 58, 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Emilys Candy", sans-serif;
+  letter-spacing: 1px;
+}
+
+button {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: var(--primary-color);
+  border: none;
+  padding: 0.55rem 0.65rem;
+  border-radius: 7px;
+  cursor: pointer;
+  font-style: italic;
+  outline: none;
+}
+
+a {
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+img,
+video,
+svg {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: 1px solid red;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+  h2 {
+    font-size: 3.1rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1600px;
+  }
+}

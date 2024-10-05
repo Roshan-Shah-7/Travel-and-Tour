@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://<Roshan-Shah-7>.github.io/<Travel-and-Tour>",
+  "homepage": "https://Roshan-Shah-7.github.io/Travel-and-Tour",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

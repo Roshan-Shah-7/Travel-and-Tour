@@ -5,7 +5,6 @@ import Hero from "./assets/Components/Hero";
 import Population_Destination from "./assets/Components/Population_Destination";
 import Services from "./assets/Components/Services";
 import Blog from "./assets/Components/Blog";
-import Gallry from "./assets/Components/Gallry";
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
       <Population_Destination />
       <Services />
       <Blog />
-      <Gallry />
     </main>
   );
 }
